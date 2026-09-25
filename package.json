@@ -1,0 +1,14 @@
+{
+  "name": "alx-jev",
+  "version": "0.1.0",
+  "description": "Jev-like System One decision API emulated on an OpenAI-compatible gateway (qwen3.8-flash-next)",
+  "type": "module",
+  "main": "src/server.mjs",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "smoke": "bash examples/smoke.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
